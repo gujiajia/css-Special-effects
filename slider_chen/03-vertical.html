@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/cube.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container bac">
+        <div class="img">
+            <img src="img/4.gif" alt="">
+        </div>
+        <div id="rallback"></div>
+        <audio loop autoplay id="music" src="audio.mp3"></audio>
+        <div class="pre animate-top">
+            <img src="img/xiangshang.png" alt="">
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="content">
+                    <div class="page-1-img1 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s">
+                        <img src="img/2.png">
+                    </div>
+                    <div class="page-1-img2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                        <img src="img/5.png">
+                    </div>
+                    <div class="page-1-img3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <div class="page-1-p1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+                        <p>新人新礼新方案 不赚利润只赢口碑</p>
+                    </div>
+                    <div class="page-1-p2 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="1.8s">
+                        <h2>婚纱照返现</h2>
+                        <p class="">艺术照\全家福拍一套送5套</p>
+                    </div>
+                    <div class="page-1-p3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="2s">
+                        <h2>易企秀婚纱摄影</h2>
+                        <p>2017.3.5~2017.3.15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <div class="page-2">
+                        <div class="page-2-1">
+                            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s">关于我们</p>
+                            <img class="ani img1" src="img/7.png" swiper-animate-effect="zoomIn" swiper-animate-duration="3s" swiper-animate-delay="0.3s">
+                            <div class="page-2-2 ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s">
+                                <p class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">“薇薇新娘”是台湾著名婚纱品牌，上世纪90年初进驻中国大陆市场，迅速成为新人热捧的品牌。“薇薇新娘”这个台湾著名婚纱品牌，在中国大陆如雨后春笋般迅速崛起。</p>
+                                <p class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">中国薇薇新娘影楼联盟是一个全国性、专业性、自律性的联盟组织。由青岛薇薇新娘发起，温州、武汉、秦皇岛等数十家薇薇新娘协同组织，历经2年多的筹备，于2011年2月14日在上海成立。</div>
+                            </p>
+                            <img class="img2 ani" src="img/1.png" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="2s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <div class="page-2">
+                        <div class="page-2-1">
+                            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s">优惠促销</p>
+                            <img class="ani img1" src="img/7.png" swiper-animate-effect="zoomIn" swiper-animate-duration="3s" swiper-animate-delay="0.3s">
+                            <div class="page-2-2 ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s">
+                                <p>
+                                    <span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span>
+                                </p>
+                                <p class="big ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="1.5s">减1000元</p>
+                                <p class="small ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2s">全场购满1000元下次即可使用</p>
+                                <p>
+                                    <span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span>
+                                </p>
+                                <p class="big ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2s">减2500元</p>
+                                <p class="small ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2s">全场购满2000元下次即可使用</p>
+                                <p>
+                                    <span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span>
+                                </p>
+                                <p class="big ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2s">减3500元</p>
+                                <p class="small ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2s">全场购满3000元下次即可使用</p>
+                                <p>
+                                    <span class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">~~~~~~~</span>
+                                </p>
+                            </div>
+                            <img class="img2 ani" src="img/1.png" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="2s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <div class="page-2">
+                        <div class="page-2-1">
+                            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s">经典客片</p>
+                            <img class="ani img1" src="img/7.png" swiper-animate-effect="zoomIn" swiper-animate-duration="3s" swiper-animate-delay="0.3s">
+                            <div class="page-2-2 ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s">
+                                <img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="img/12.jpg" alt="">
+                                <img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="img/12.png" alt="">
+                            </div>
+                            <img class="img2 ani" src="img/1.png" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="2s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="content">
+                    <div class="page-2">
+                        <div class="page-2-1">
+                            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.8s">联系我们</p>
+                            <img class="ani img1" src="img/7.png" swiper-animate-effect="zoomIn" swiper-animate-duration="3s" swiper-animate-delay="0.3s">
+                            <div class="page-2-2 ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s">
+                                <input class="inp1 ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="0.8s" type="text" placeholder="姓名">
+                                <input class="inp1 ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="0.8s" type="tel" placeholder="电话">
+                                <input class="inp2 ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="0.8s" type="text" placeholder="备注">
+                                <button class="btn1 ani" swiper-animate-effect="flip" swiper-animate-duration="2s" swiper-animate-delay="0.8s" type="submit">点击提交</button>
+                                <p class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s">地址：北京市海定区</p>
+                                <p class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s">画画设计</p>
+                                <p class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s">手机：15203272626</p>
+                            </div>
+                            <img class="img2 ani" src="img/1.png" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="2s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Pagination -->
+
+        </div>
+        <!-- Swiper JS -->
+        <script src="js/swiper.min.js"></script>
+        <script src="js/swiper.animate1.0.2.min.js"></script>
+        <script src="js/init.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                direction: 'vertical',
+
+                onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+                    swiperAnimateCache(swiper); //隐藏动画元素 
+                    swiperAnimate(swiper); //初始化完成开始动画
+                },
+
+                onSlideChangeEnd: function(swiper) {
+                    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+                }
+
+            })
+        </script>
+        <script>
+            window.onload = function() {
+                var flag = 1; //开启音乐  
+                var music = document.getElementById('music');
+                var rallback = document.getElementById('rallback');
+
+                rallback.onclick = function() {
+                    if (flag == 1) {
+                        music.pause(); /*音乐关闭*/
+                        flag = 0;
+                        rallback.style.webkitAnimationPlayState = "paused"; //旋转动画暂停  
+                    } else {
+                        music.play(); /*音乐开启*/
+                        flag = 1;
+                        rallback.style.webkitAnimationPlayState = "running"; //旋转动画暂停  
+                    }
+                }
+            }
+        </script>
+
+</body>
+
+</html>

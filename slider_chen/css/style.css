@@ -1,0 +1,219 @@
+body {
+    font-size: 14px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background: url(../img/3.png) no-repeat;
+    background-size: cover
+}
+
+.page-1-img1 {
+    width: 4.071rem;
+    height: 3.786rem;
+    position: relative;
+    top: 3rem;
+    left: 2rem
+}
+
+.page-1-img2 {
+    width: 16.286rem;
+    height: 13rem;
+    position: relative;
+    top: 1rem;
+    left: 0.9rem
+}
+
+.page-1-img3 {
+    width: 7.786rem;
+    height: 6.786rem;
+    position: absolute;
+    top: 2rem;
+    left: 11rem;
+}
+
+.page-1-p1 {
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+.page-1-p1 p {
+    color: rgb(70, 152, 177);
+    font-size: 0.8rem;
+    text-align: center
+}
+
+.page-1-p2 {
+    width: 100%;
+    height: 3.85rem;
+    position: relative;
+    top: 1rem;
+    background: url(../img/6.png)50% 0 no-repeat;
+}
+
+.page-1-p2 h2 {
+    color: #fff;
+    margin: 0;
+}
+
+.page-1-p2 p {
+    text-align: center;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600
+}
+
+.page-1-p3 {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    top: 1rem;
+}
+
+.page-1-p3 h2 {
+    color: rgb(70, 152, 177);
+}
+
+.page-1-p3 p {
+    color: rgb(70, 152, 177)
+}
+
+#rallback {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    left: 15.5rem;
+    background: url(../img/11.png);
+    background-size: cover;
+    opacity: 0.5;
+    animation: music_disc 1.5s linear infinite;
+    z-index: 1111
+}
+
+@keyframes music_disc {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pre {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+    left: 48%;
+}
+
+.animate-top {
+    animation: ani_top 1s linear infinite;
+}
+
+@keyframes ani_top {
+    0% {
+        bottom: 0rem;
+        opacity: 0
+    }
+    100% {
+        bottom: 2.5rem;
+        opacity: 0.7
+    }
+}
+
+.img {
+    width: 6rem;
+    height: 9.792rem;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    z-index: 111;
+}
+
+.page-2 {
+    width: 14.480rem;
+    height: 25.640rem;
+    background: rgb(69, 152, 177);
+    position: relative;
+    top: 3rem;
+    left: 1.8rem;
+}
+
+.page-2-2 {
+    width: 11.136rem;
+    height: 18.552rem;
+    border: 0.2rem solid #fff;
+    position: absolute;
+    left: 0.7rem;
+    top: 4.8rem;
+    padding: 0.8rem;
+}
+
+.page-2-1>p {
+    font-size: 2rem;
+    color: #fff
+}
+
+.page-2-1 .img1 {
+    position: absolute;
+    left: 2.3rem;
+    top: 1.8rem;
+    z-index: 1
+}
+
+.page-2-2 p {
+    font-size: 0.8rem;
+    color: #fff;
+    margin: 0.4rem
+}
+
+.page-2-1 .img2 {
+    position: absolute;
+    top: 23rem;
+    right: 0;
+    z-index: 11;
+    width: 4rem;
+}
+
+.page-2-2 .big {
+    font-size: 1.3rem;
+}
+
+.page-2-2 .small {
+    font-size: 0.7rem
+}
+
+.page-2-2 img {
+    width: 100%;
+    margin-top: 1.2rem
+}
+
+.inp1 {
+    width: 100%;
+    height: 1.8rem;
+    background: rgb(69, 152, 177);
+    border: 0.08rem solid #fff;
+    margin-top: 1rem;
+}
+
+.inp2 {
+    width: 100%;
+    height: 2.8rem;
+    background: rgb(69, 152, 177);
+    border: 0.08rem solid #fff;
+    margin-top: 1rem
+}
+
+.btn1 {
+    width: 100%;
+    height: 1.8rem;
+    margin-top: 1rem;
+    color: rgb(69, 152, 177);
+}

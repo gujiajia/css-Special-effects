@@ -1,0 +1,657 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 14px;
+}
+
+#page1-1{ background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%}
+.mymusic {
+    width: 30px;
+    height: 30px;
+    background: url(../img/音乐.png) no-repeat;
+    background-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    animation: myfirst 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.mymusicOf {
+    width: 30px;
+    height: 30px;
+    background: url(../img/音乐关.png) no-repeat;
+    background-size: 30px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+@keyframes myfirst {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(358deg);
+    }
+}
+
+#up {
+    position: fixed;
+    width: 8vw;
+    z-index: 99;
+    margin-left: 15%;
+    bottom: 3%;
+    animation: myfirst1 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 45%
+}
+
+@keyframes myfirst1 {
+    0% {
+        bottom: 3%;
+    }
+    100% {
+        bottom: 6%;
+    }
+}
+
+#page2-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+#jianli {
+    color: #000;
+    font-weight: 900;
+    font-size: 3rem;
+    display: block;
+    width: 100vw;
+    margin-top: -95%;
+}
+
+#HR {
+    width: 80%;
+    border: 3px solid #000;
+    position: absolute;
+    margin-top: -120px
+}
+
+#mcbox1 {
+    width: 60%;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#tx {
+    width: 80vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.tx {
+    background-image: url(../img/quan2.png);
+    background-size: 57vw 57vw;
+    background-repeat: no-repeat;
+    width: 57vw;
+    height: 57vw;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 66;
+    top: 17%;
+    left: 16.8%;
+    animation: myfirst 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#tx1 {
+    width: 41.8vw;
+    height: 41.8vw;
+    border-radius: 50%;
+    top: 21.4%;
+    left: 24.3%;
+    position: absolute;
+    z-index: 2;
+}
+
+.mc {
+    background-color: #0d0904;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7
+}
+
+#qz {
+    color: palegreen;
+    font-size: 3rem;
+    position: absolute;
+    font-weight: 900;
+    width: 100vw;
+    left: 0px;
+    margin-top: 10vh
+}
+
+#one {
+    margin-top: 30vh;
+    position: absolute;
+    width: 81vw;
+}
+
+#one ul li {
+    list-style: none;
+    float: left
+}
+
+.yuan {
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #ccc;
+    border-radius: 50%
+}
+
+.xian {
+    width: 60vw;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 2px
+}
+
+#two {
+    margin-top: 20vh;
+    position: absolute;
+    width: 81vw;
+}
+
+#two ul li {
+    list-style: none;
+    float: left
+}
+
+#qian {
+    position: absolute;
+    margin-top: 25vh;
+    color: #ccc;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 60vw;
+}
+
+#page3-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+.bg {
+    background: url(../img/quan2.png) no-repeat;
+    background-size: 100% 100%;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    border-radius: 50%;
+    animation: myfirst3 3s;
+    animation-iteration-count: infinite;
+    z-index: 3
+}
+
+@keyframes myfirst3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#cl {
+    position: absolute;
+    margin-left: -13vw;
+    margin-top: -3vh;
+    width: 40vw;
+    z-index: 1;
+    animation: myfirst 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#page3-1 h1 {
+    width: 30vw;
+    line-height: 30vw;
+    position: absolute;
+    top: 5vh;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#deng {
+    position: absolute;
+    top: -30vh;
+    right: 0px;
+    z-index: 69;
+    width: 100vw;
+    height: 80vh;
+}
+
+.one {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    top: -10vh;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+.one1 {
+    background-color: #19CECE;
+    position: absolute;
+    opacity: 0.5;
+    width: 70vw;
+    height: 10vw;
+    transform: skew(-30deg, 00deg);
+}
+
+#page3-1 p {
+    text-align: left;
+    width: 60vw;
+    padding-left: 5vw
+}
+
+.top {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    top: -7vh;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+.top2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    top: -4vh;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+.top3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    top: -1vh;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+.top4 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    top: 2vh;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    line-height: 10vw;
+}
+
+#box1 {
+    position: relative;
+    top: 20vh
+}
+
+#page4-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+#page4-1 h1 {
+    width: 15vw;
+    line-height: 15vw;
+    position: relative;
+    top: 5vh;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: #19CECE;
+    top: -35vh;
+    left: -25vw
+}
+
+#genggai {
+    width: 70vw;
+    height: 50vh;
+    padding: 3vw;
+    color: #fff;
+    border: 3px solid #19CECE
+}
+
+.quan {
+    position: absolute;
+    left: -2.5vw;
+    top: -1.6vh;
+    width: 20vw;
+    animation: myfirst 5s;
+    animation-iteration-count: infinite;
+}
+
+#jianjie {
+    position: absolute;
+    color: #19CECE;
+    font-size: 2rem;
+    font-weight: 900;
+    top: 12vh
+}
+
+#xuxian {
+    width: 80vw;
+    border-top: 3px dashed #19CECE;
+    height: 10vh;
+    position: absolute;
+    right: 0;
+    top: 22vh
+}
+
+#neirong {
+    width: 100vw;
+    height: 50vh;
+    top: 30vh;
+    position: absolute;
+}
+
+#zhaopian {
+    width: 50vw;
+    height: 49%;
+    border-right: 3px solid #19CECE;
+    position: absolute;
+    left: 0;
+}
+
+#nz {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 900;
+    text-align: left;
+    position: absolute;
+    left: 10vw;
+    width: 80%;
+    height: 30%;
+    top: 3vh
+}
+
+#nz1 {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 900;
+    text-align: left;
+    position: absolute;
+    right: 0vw;
+    width: 45%;
+    height: 30%;
+    top: 53%
+}
+
+#zhaopian1 {
+    width: 49vw;
+    height: 49%;
+    border-bottom: 3px solid #19CECE;
+    position: absolute;
+    right: 0
+}
+
+#zhaopian1 img {
+    width: 30vw;
+    height: 80%;
+    margin-top: 3vh
+}
+
+#zhaopian2 {
+    width: 51vw;
+    height: 49%;
+    border-top: 3px solid #19CECE;
+    position: absolute;
+    left: 0;
+    top: 49%
+}
+
+#zhaopian2 img {
+    width: 30vw;
+    height: 80%;
+    margin-top: 3vh
+}
+
+#zhaopian3 {
+    width: 49vw;
+    height: 49%;
+    position: absolute;
+    right: 0;
+    top: 49%;
+    border-left: 3px solid #19CECE;
+}
+
+#page5-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+#page5-1 h1 {
+    width: 15vw;
+    line-height: 15vw;
+    position: relative;
+    top: 5vh;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: #19CECE;
+    top: -35vh;
+    left: -25vw
+}
+
+#page6-1 {
+    background: url(../img/true.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+#page6-1 h1 {
+    width: 15vw;
+    line-height: 15vw;
+    position: relative;
+    top: 5vh;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: #19CECE;
+    top: -35vh;
+    left: -25vw
+}
+
+.neirong2 {
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    left: 0px
+}
+
+.neirong-left {
+    width: 25vw;
+    height: 50vh;
+    position: absolute;
+    left: 0px
+}
+
+.neirong-left>img {
+    width: 10vw;
+    height: 10vw;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    margin-top: 5vw
+}
+
+.neirong-center {
+    width: 25vw;
+    height: 50vh;
+    position: absolute;
+    left: 0vw;
+    padding-top: 1.3vw
+}
+
+.neirong-center>img {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    display: block;
+    margin-top: 2vw;
+    animation: myfirst4 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes myfirst4 {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    25% {
+        transform: rotate(90deg);
+        opacity: 1
+    }
+    50% {
+        transform: rotate(180deg);
+        opacity: 0
+    }
+    100% {
+        transform: rotate(358deg);
+        opacity: 1;
+    }
+}
+
+.neirong-right {
+    width: 70vw;
+    height: 50vh;
+    position: absolute;
+    right: 5vw
+}
+
+.box {
+    background-color: #06c;
+    width: 70vw;
+    height: 3vh;
+    border-radius: 2vw;
+    margin-top: 4vh;
+    position: relative
+}
+
+.yi {
+    margin-top: 5.5vh
+}
+
+.er {
+    margin-top: 5.5vh
+}
+
+.san {
+    margin-top: 5.5vh
+}
+
+.si {
+    margin-top: 5.5vh
+}
+
+.bar {
+    background-color: seagreen;
+    width: 0vw;
+    height: 3vh;
+    margin-left: 0px;
+    border-radius: 2vw;
+    position: absolute;
+    animation: myfirst7 5s;
+    /*animation-iteration-count: infinite;*/
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes myfirst7 {
+    0% {
+        width: 0vw
+    }
+    100% {
+        width: 60vw
+    }
+}
+
+.neirong3 {
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    left: 0px;
+    top: 40vh
+}
+
+.sj-left {
+    width: 38vw;
+    height: 50vh;
+    position: absolute;
+    left: 3vw;
+    color: #fff
+}
+
+.sj-left>p {
+    width: 38vw;
+    height: 5vh;
+    background-color: #19CECE;
+    margin-top: 5vh;
+    line-height: 5vh
+}
+
+.sj-center {
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    left: 40vw
+}
+
+.sj-img {
+    width: 5vw;
+    animation: myfirst 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 6vh;
+    display: block
+}
+
+.sj-right {
+    width: 38vw;
+    height: 50vh;
+    position: absolute;
+    right: 3vw;
+    color: #fff
+}
+
+.sj-right>p {
+    width: 38vw;
+    height: 5vh;
+    background-color: #19CECE;
+    margin-top: 5vh;
+    line-height: 5vh
+}

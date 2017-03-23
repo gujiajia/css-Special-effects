@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text,
+.text_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_2 {
+    align-self: flex-end;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.img,
+.img_2,
+.img_3,
+.img_4,
+.img_5 {
+    width: 140px;
+    display: flex;
+}
+
+.img {
+    justify-content: center;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.heart_x {
+    width: 28px;
+    height: 25px;
+}
+
+.img_2 {
+    height: 280px;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heart_d {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.img_3,
+.img_4 {
+    height: 280px;
+    align-self: center;
+    flex-direction: column;
+}
+
+.img_3 {
+    justify-content: space-between;
+}
+
+.img_3 div,
+.img_4 div,
+.img_3_3 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cen_img {
+    align-self: center;
+}
+
+.img_4 {
+    justify-content: space-around;
+}
+
+.img_3_3 {
+    width: 140px;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_5 {
+    height: 280px;
+    align-self: center;
+}
+
+.img_5_5,
+.cen_img_2 {
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cen_img_2 {
+    height: 200px;
+    align-self: center;
+}

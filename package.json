@@ -1,0 +1,19 @@
+{
+  "name": "css-special-effects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gujiajia/css-special-effects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gujiajia/css-special-effects/issues"
+  },
+  "homepage": "https://github.com/gujiajia/css-special-effects#readme"
+}

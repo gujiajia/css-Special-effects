@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜</title>
+    <script src="demo4.js"></script>
+    <!--<script>
+        function addTextNode() {
+            var newtext = document.createTextNode("动态添加一些文本");
+            var para = document.getElementById("p1");
+            para.appendChild(newtext);
+        }
+    </script>-->
+    <script>
+        function initElement() {
+            var p = document.getElementById("p1");
+            // 注意: showAlert(); 或者 showAlert(param); 在这将无效.
+            // 其必须是函数的一个引用/函数名，而不是函数调用
+            p.onclick = showAlert;
+        };
+
+        function showAlert() {
+            alert("onclick Event detected!")
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="aimg"><img src="../images/2.jpg" alt=""></div>
+
+
+
+    <select name="select">
+  <option value="value1">Value 1</option> 
+  <option value="value2" selected>Value 2</option>
+  <option value="value3">Value 3</option>
+</select>
+
+    <form action="test.php" method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <input type="radio" id="radio"> <label for="radio">Click me</label>
+        </fieldset>
+    </form>
+    <div style="border: 1px solid red">
+        <p id="p1">一段话的第一行.<br /></p>
+    </div><br />
+
+    <button onclick="addTextNode();">添加一个文本节点.</button>
+</body>
+
+</html>

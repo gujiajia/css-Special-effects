@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content,
+.img,
+.img ul,
+.img ul li,
+.img ul li img {
+    width: 100%;
+}
+
+.img ul li {
+    float: left;
+}
+
+.text {
+    width: 240px;
+}
+
+.text li {
+    height: 31px;
+    line-height: 31px;
+}
